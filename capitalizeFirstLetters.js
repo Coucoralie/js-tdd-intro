@@ -10,6 +10,6 @@ function capitalizeFirstLetters(input) {
     return "";
   }
 }
-
+module.exports = capitalizeFirstLetters;
 
 
