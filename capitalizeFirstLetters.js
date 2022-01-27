@@ -1,5 +1,3 @@
-const assert = require("assert");
-
 function capitalizeFirstLetters(input) {
   if (input.length > 0) {
     return input
@@ -13,11 +11,5 @@ function capitalizeFirstLetters(input) {
   }
 }
 
-assert.strictEqual(
-  capitalizeFirstLetters("i am learning tdd"),
-  "I Am Learning Tdd"
-);
 
-assert.strictEqual(capitalizeFirstLetters.length, 1);
 
-assert.strictEqual(capitalizeFirstLetters(""), "");
